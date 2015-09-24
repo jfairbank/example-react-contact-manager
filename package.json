@@ -1,0 +1,34 @@
+{
+  "name": "example-react-contact-manater",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "./node_modules/.bin/webpack",
+    "dev": "npm run build && npm run serve",
+    "serve": "./node_modules/.bin/babel-node --stage 0 ./src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jeremy Fairbank <elpapapollo@gmail.com> (http://jeremyfairbank.com)",
+  "license": "MIT",
+  "dependencies": {
+    "babel": "^5.8.23",
+    "babel-runtime": "^5.8.25",
+    "express": "^4.13.3",
+    "history": "^1.10.1",
+    "jade": "^1.11.0",
+    "lodash": "^3.10.1",
+    "react": "^0.14.0-rc1",
+    "react-dom": "^0.14.0-rc1",
+    "react-redux": "^2.1.2",
+    "react-router": "^1.0.0-rc1",
+    "redux": "^3.0.0",
+    "redux-actions": "^0.8.0"
+  },
+  "devDependencies": {
+    "babel-core": "^5.8.25",
+    "babel-loader": "^5.3.2",
+    "eslint-plugin-react": "^3.4.2",
+    "webpack": "^1.12.2"
+  }
+}
